@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" type="image/png" href="favicomatic/favicon-32x32.png" sizes="32x32"/>
+	<link rel="icon" type="image/png" href="favicomatic/favicon-16x16.png" sizes="16x16"/>
+	<title>pageranker</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<style>
+
+	</style>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-12 text-center">
+    				<h1>pageranker</h1> 
+    			</div>
+    		</div>
+    		<!-- /.row -->
+    		<div class="padding"></div>
+
+    		<div class="row">
+    			<div class="col-lg-4 col-lg-offset-4">
+    				<div class="input-group">
+    					<span class="input-group-btn">
+    						<button class="btn btn-default" id="search_button" type="button">Search</button>
+    					</span>
+    					<input type="text" class="form-control" id="search_bar" placeholder="What are you looking for?">
+    				</div><!-- /input-group -->
+    			</div><!-- /.col-lg-6 -->
+    		</div><!-- /.row -->
+
+    	<!-- 	<div class="padding"></div>
+    		<div class="row">
+    			<div class="col-lg-4" id="matrix_col">
+    				<div class="input-group">
+    					<span class="input-group-btn">
+    						<button class="btn btn-default img-rounded" type="button" id="graph_button">Graph</button>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="col-lg-4" id="vector_col">
+    				<div class="input-group">
+    					<span class="input-group-btn">
+    						<button class="btn btn-default img-rounded" type="button" id="vector_button">Vector</button>
+    					</span>
+    				</div> 
+    			</div>
+    			<div class="col-lg-4" id="rank_col">
+    				<div class="input-group">
+    					<span class="input-group-btn">
+    						<button class="btn btn-default img-rounded" type="button" id="rank_button">Rank</button>
+    					</span>
+    				</div>
+    			</div>
+    		</div> -->
+
+            <div class="padding"></div>
+
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4 text-center">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default center-block" id="graph_button"><input type="radio">Graph</label>
+                        <label class="btn btn-default center-block" id="vector_button"><input type="radio">Rank</label>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- /.container -->
+        <div class="padding"></div>
+        <div class="padding"></div>
+
+        <div class="container" id="link_graph" style="display: none">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4"> 
+                    <img src="link_graph.png" alt="Link Graph" style="width:350px;height:340px;">
+                </div>
+            </div>
+        </div>
+
+    <!-- 	<div class="container" style="display: none" id="matrix_display">
+    		<div class="row">
+    			<div class="col-lg-2 col-lg-offset-5"</div>
+    				<h2></h2>           
+    				<table class="table table-bordered">
+    					<thead>
+    						<tr>
+    							<th></th>
+    							<th>A</th>
+    							<th>B</th>
+    							<th>C</th>
+    							<th>D</th>
+    							<th>E</th>
+    						</tr>
+    						<tr>
+    							<th>A</th>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    						</tr>
+    						<tr>
+    							<th>B</th>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    						</tr>
+    						<tr>
+    							<th>C</th>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    						</tr>
+    						<tr>
+    							<th>D</th>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    						</tr>
+    						<tr>
+    							<th>E</th>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    							<td>1</td>
+    						</tr>
+    					</thead>
+    				</table>
+    			</div>
+    		</div>
+    	</div> -->
+
+    	<div class="container" style="display: none" id="vector_display">
+    		<div class="row">
+    			<div class="col-lg-2 col-lg-offset-5"</div>
+    				<h4 style="text-align: center">pageranks</h4>           
+    				<table class="table table-bordered" id="vector_table">
+    					<thead>
+    						<tr>
+    							<th>1</th>
+    							<td></td>
+    						</tr>
+    						<tr>
+    							<th>2</th>
+    							<td></td>
+    						</tr>
+    						<tr>
+    						<th>3</th>
+    							<td></td>
+    						</tr>
+    						<tr>
+    							<th>4</th>
+    							<td></td>
+    						</tr>
+    					</thead>
+    				</table>
+    			</div>
+    		</div>
+    	</div>
+
+    	<ul class="list-group container col-lg-4 col-lg-offset-4" style="display:none" id="results_list">
+    		<li class="list-group-item"><a href=""></a></li>
+    		<div class="padding"></div>
+    		<li class="list-group-item"><a href=""></a></li>
+    		<div class="padding"></div>
+    		<li class="list-group-item"><a href=""></a></li>
+            <div class="padding"></div>
+            <li class="list-group-item"><a href=""></a></li>
+<!-- div class="padding"></div>
+  <li class="list-group-item"></li>
+  <div class="padding"></div>
+  <li class="list-group-item"></li> -->
+</ul>
+<!-- jQuery Version 1.11.1 -->
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

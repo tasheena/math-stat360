@@ -1,0 +1,46 @@
+.padding {
+	height: 20px;
+}
+
+button {
+	background: #27BAA2 !important;
+	color: #FFF !important;
+	border-color: #27BAA2 !important;
+}
+
+#button:hover {
+	background: #00CCCC;
+}
+
+ body {
+    padding-top: 50px;
+}
+
+#matrix_col {
+	/*text-align: right;*/
+	border-radius: 10px;
+	/*padding-right: 5px;*/
+}
+
+#vector_col {
+	/*text-align: left;*/
+/*	padding-left: 5px;
+	padding-right: 5px;*/
+}
+
+#rank_col {
+	/*text-align: left;*/
+/*	padding-left: 5px;*/
+}
+
+#matrix_col, #vector_col, #rank_col {
+	border-radius: 10px !important;
+	
+}
+
+
+.list-group-item {
+	height: 60px !important;
+	font-size: 17px !important;
+	font-style: bold;
+}

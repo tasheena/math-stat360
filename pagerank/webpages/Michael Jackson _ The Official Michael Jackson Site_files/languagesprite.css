@@ -1,0 +1,1311 @@
+.block-locale {
+  margin-left: 100px; /* temp */
+  position: relative;
+  cursor: pointer;
+  float: left;
+  padding: 5px;
+  z-index: 5;
+}
+
+.block-locale .switcher-btn-down{
+  padding-right: 18px;
+  /*background: url('../images/btn-sprite.png') no-repeat right -32px transparent;*/
+}
+.block-locale ul.links {
+  position: absolute;
+  top: 99%;
+  left: 0;
+  width: auto;
+  margin: 0;
+  padding: 14px;
+  /*background: #fff;*/
+}
+
+.js .block-locale ul {
+  display: none;
+}
+
+.block-locale ul.links li {
+  margin-bottom: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.block-locale ul.links li:last-child{
+  margin-bottom: 0;
+}
+
+/* language list */
+
+.block-locale ul.links li a {
+  display: block;
+  height: 11px;
+  width: 16px;
+  overflow: hidden;
+  text-indent: -999em;
+  background-image: url('../images/flags.png');
+}
+
+/* current language */
+
+.block-locale h2 {
+  padding: 0;
+  margin-top: 0;
+  margin: 0;
+  line-height: 0;
+  height: 10px;
+  width: 16px;
+  border: 0px none;
+  overflow: hidden;
+  text-indent: -999em;
+  background: url('../images/flags.png') no-repeat;
+}
+
+.block-locale h2.ae,
+.block-locale .ae a {
+  background-position: 0 -23px;
+}
+
+.block-locale h2.af,
+.block-locale .af a {
+  background-position: 0 -46px;
+}
+
+.block-locale h2.ag,
+.block-locale .ag a {
+  background-position: 0 -69px;
+}
+
+.block-locale h2.ai,
+.block-locale .ai a {
+  background-position: 0 -92px;
+}
+
+.block-locale h2.al,
+.block-locale .al a {
+  background-position: 0 -115px;
+}
+
+.block-locale h2.am,
+.block-locale .am a {
+  background-position: 0 -138px;
+}
+
+.block-locale h2.an,
+.block-locale .an a {
+  background-position: 0 -161px;
+}
+
+.block-locale h2.ao,
+.block-locale .ao a {
+  background-position: 0 -184px;
+}
+
+.block-locale h2.ar,
+.block-locale .ar a {
+  background-position: 0 -207px;
+}
+
+.block-locale h2.as,
+.block-locale .as a {
+  background-position: 0 -230px;
+}
+
+.block-locale .at,
+.block-locale .at a {
+  background-position: 0 -253px;
+}
+
+.block-locale h2.au,
+.block-locale .au a {
+  background-position: 0 -276px;
+}
+
+.block-locale h2.aw,
+.block-locale .aw a {
+  background-position: 0 -299px;
+}
+
+.block-locale h2.ax,
+.block-locale .ax a {
+  background-position: 0 -322px;
+}
+
+.block-locale h2.az,
+.block-locale .az a {
+  background-position: 0 -345px;
+}
+
+.block-locale h2.ba,
+.block-locale .ba a {
+  background-position: 0 -368px;
+}
+
+.block-locale h2.bb,
+.block-locale .bb a {
+  background-position: 0 -391px;
+}
+
+.block-locale h2.bd,
+.block-locale .bd a {
+  background-position: 0 -414px;
+}
+
+.block-locale h2.be,
+.block-locale .be a {
+  background-position: 0 -437px;
+}
+
+.block-locale h2.bf,
+.block-locale .bf a {
+  background-position: 0 -460px;
+}
+
+.block-locale h2.bg,
+.block-locale .bg a {
+  background-position: 0 -483px;
+}
+
+.block-locale h2.bh,
+.block-locale .bh a {
+  background-position: 0 -506px;
+}
+
+.block-locale h2.bi,
+.block-locale .bi a {
+  background-position: 0 -529px;
+}
+
+.block-locale h2.bj,
+.block-locale .bj a {
+  background-position: 0 -552px;
+}
+
+.block-locale h2.bm,
+.block-locale .bm a {
+  background-position: 0 -575px;
+}
+
+.block-locale h2.bn,
+.block-locale .bn a {
+  background-position: 0 -598px;
+}
+
+.block-locale h2.bo,
+.block-locale .bo a {
+  background-position: 0 -621px;
+}
+
+.block-locale h2.br,
+.block-locale .br a {
+  background-position: 0 -644px;
+}
+
+.block-locale h2.bs,
+.block-locale .bs a {
+  background-position: 0 -667px;
+}
+
+.block-locale h2.bt,
+.block-locale .bt a {
+  background-position: 0 -690px;
+}
+
+.block-locale h2.bv,
+.block-locale .bv a {
+  background-position: 0 -713px;
+}
+
+.block-locale h2.bw,
+.block-locale .bw a {
+  background-position: 0 -736px;
+}
+
+.block-locale h2.by,
+.block-locale .by a {
+  background-position: 0 -759px;
+}
+
+.block-locale h2.bz,
+.block-locale .bz a {
+  background-position: 0 -782px;
+}
+
+.block-locale h2.ca,
+.block-locale .ca a {
+  background-position: 0 -805px;
+}
+
+.block-locale h2.catalonia,
+.block-locale .catalonia a {
+  background-position: 0 -828px;
+}
+
+.block-locale h2.cc,
+.block-locale .cc a {
+  background-position: 0 -851px;
+}
+
+.block-locale h2.cd,
+.block-locale .cd a {
+  background-position: 0 -874px;
+}
+
+.block-locale h2.cf,
+.block-locale .cf a {
+  background-position: 0 -897px;
+}
+
+.block-locale h2.cg,
+.block-locale .cg a {
+  background-position: 0 -920px;
+}
+
+.block-locale h2.ch,
+.block-locale .ch a {
+  background-position: 0 -943px;
+}
+
+.block-locale h2.ci,
+.block-locale .ci a {
+  background-position: 0 -966px;
+}
+
+.block-locale h2.ck,
+.block-locale .ck a {
+  background-position: 0 -989px;
+}
+
+.block-locale h2.cl,
+.block-locale .cl a {
+  background-position: 0 -1012px;
+}
+
+.block-locale h2.cm,
+.block-locale .cm a {
+  background-position: 0 -1035px;
+}
+
+.block-locale h2.cn,
+.block-locale .cn a {
+  background-position: 0 -1058px;
+}
+
+.block-locale h2.co,
+.block-locale .co a {
+  background-position: 0 -1081px;
+}
+
+.block-locale h2.cr,
+.block-locale .cr a {
+  background-position: 0 -1104px;
+}
+
+.block-locale h2.cs,
+.block-locale .cs a {
+  background-position: 0 -1127px;
+}
+
+.block-locale h2.cu,
+.block-locale .cu a {
+  background-position: 0 -1150px;
+}
+
+.block-locale h2.cv,
+.block-locale .cv a {
+  background-position: 0 -1173px;
+}
+
+.block-locale h2.cx,
+.block-locale .cx a {
+  background-position: 0 -1196px;
+}
+
+.block-locale h2.cy,
+.block-locale .cy a {
+  background-position: 0 -1219px;
+}
+
+.block-locale h2.cz,
+.block-locale .cz a {
+  background-position: 0 -1242px;
+}
+
+.block-locale h2.de,
+.block-locale .de a {
+  background-position: 0 -1265px;
+}
+
+.block-locale h2.dj,
+.block-locale .dj a {
+  background-position: 0 -1288px;
+}
+
+.block-locale h2.dk,
+.block-locale .dk a {
+  background-position: 0 -1311px;
+}
+
+.block-locale h2.dm,
+.block-locale .dm a {
+  background-position: 0 -1334px;
+}
+
+.block-locale h2.do,
+.block-locale .do a {
+  background-position: 0 -1357px;
+}
+
+.block-locale h2.dz,
+.block-locale .dz a {
+  background-position: 0 -1380px;
+}
+
+.block-locale h2.ec,
+.block-locale .ec a {
+  background-position: 0 -1403px;
+}
+
+.block-locale h2.ee,
+.block-locale .ee a {
+  background-position: 0 -1426px;
+}
+
+.block-locale h2.eg,
+.block-locale .eg a {
+  background-position: 0 -1449px;
+}
+
+.block-locale h2.eh,
+.block-locale .eh a {
+  background-position: 0 -1472px;
+}
+
+.block-locale h2.en,
+.block-locale .en a {
+  background-position: 0 -5290px;
+}
+
+.block-locale h2.england,
+.block-locale .england a {
+  background-position: 0 -1495px;
+}
+
+.block-locale h2.er,
+.block-locale .er a {
+  background-position: 0 -1518px;
+}
+
+.block-locale h2.es,
+.block-locale .es a {
+  background-position: 0 -1541px;
+}
+
+.block-locale h2.et,
+.block-locale .et a {
+  background-position: 0 -1564px;
+}
+
+.block-locale h2.europeanunion,
+.block-locale .europeanunion a {
+  background-position: 0 -1587px;
+}
+
+.block-locale h2.fam,
+.block-locale .fam a {
+  background-position: 0 -1610px;
+}
+
+.block-locale h2.fi,
+.block-locale .fi a {
+  background-position: 0 -1633px;
+}
+
+.block-locale h2.fj,
+.block-locale .fj a {
+  background-position: 0 -1656px;
+}
+
+.block-locale h2.fk,
+.block-locale .fk a {
+  background-position: 0 -1679px;
+}
+
+.block-locale h2.fm,
+.block-locale .fm a {
+  background-position: 0 -1702px;
+}
+
+.block-locale h2.fo,
+.block-locale .fo a {
+  background-position: 0 -1725px;
+}
+
+.block-locale h2.fr,
+.block-locale .fr a {
+  background-position: 0 -1748px;
+}
+
+.block-locale h2.ga,
+.block-locale .ga a {
+  background-position: 0 -1771px;
+}
+
+.block-locale h2.gb,
+.block-locale .gb a {
+  background-position: 0 -1794px;
+}
+
+.block-locale h2.gd,
+.block-locale .gd a {
+  background-position: 0 -1817px;
+}
+
+.block-locale h2.ge,
+.block-locale .ge a {
+  background-position: 0 -1840px;
+}
+
+.block-locale h2.gf,
+.block-locale .gf a {
+  background-position: 0 -1863px;
+}
+
+.block-locale h2.gh,
+.block-locale .gh a {
+  background-position: 0 -1886px;
+}
+
+.block-locale h2.gi,
+.block-locale .gi a {
+  background-position: 0 -1909px;
+}
+
+.block-locale h2.gl,
+.block-locale .gl a {
+  background-position: 0 -1932px;
+}
+
+.block-locale h2.gm,
+.block-locale .gm a {
+  background-position: 0 -1955px;
+}
+
+.block-locale h2.gn,
+.block-locale .gn a {
+  background-position: 0 -1978px;
+}
+
+.block-locale h2.gp,
+.block-locale .gp a {
+  background-position: 0 -2001px;
+}
+
+.block-locale h2.gq,
+.block-locale .gq a {
+  background-position: 0 -2024px;
+}
+
+.block-locale h2.gr,
+.block-locale .gr a {
+  background-position: 0 -2047px;
+}
+
+.block-locale h2.gs,
+.block-locale .gs a {
+  background-position: 0 -2070px;
+}
+
+.block-locale h2.gt,
+.block-locale .gt a {
+  background-position: 0 -2093px;
+}
+
+.block-locale h2.gu,
+.block-locale .gu a {
+  background-position: 0 -2116px;
+}
+
+.block-locale h2.gw,
+.block-locale .gw a {
+  background-position: 0 -2139px;
+}
+
+.block-locale h2.gy,
+.block-locale .gy a {
+  background-position: 0 -2162px;
+}
+
+.block-locale h2.hk,
+.block-locale .hk a {
+  background-position: 0 -2185px;
+}
+
+.block-locale h2.hm,
+.block-locale .hm a {
+  background-position: 0 -2208px;
+}
+
+.block-locale h2.hn,
+.block-locale .hn a {
+  background-position: 0 -2231px;
+}
+
+.block-locale h2.hr,
+.block-locale .hr a {
+  background-position: 0 -2254px;
+}
+
+.block-locale h2.ht,
+.block-locale .ht a {
+  background-position: 0 -2277px;
+}
+
+.block-locale h2.hu,
+.block-locale .hu a {
+  background-position: 0 -2300px;
+}
+
+.block-locale h2.id,
+.block-locale .id a {
+  background-position: 0 -2323px;
+}
+
+.block-locale h2.ie,
+.block-locale .ie a {
+  background-position: 0 -2346px;
+}
+
+.block-locale h2.il,
+.block-locale .il a {
+  background-position: 0 -2369px;
+}
+
+.block-locale h2.in,
+.block-locale .in a {
+  background-position: 0 -2392px;
+}
+
+.block-locale h2.io,
+.block-locale .io a {
+  background-position: 0 -2415px;
+}
+
+.block-locale h2.iq,
+.block-locale .iq a {
+  background-position: 0 -2438px;
+}
+
+.block-locale h2.ir,
+.block-locale .ir a {
+  background-position: 0 -2461px;
+}
+
+.block-locale h2.is,
+.block-locale .is a {
+  background-position: 0 -2484px;
+}
+
+.block-locale h2.it,
+.block-locale .it a {
+  background-position: 0 -2507px;
+}
+
+.block-locale h2.jm,
+.block-locale .jm a {
+  background-position: 0 -2530px;
+}
+
+.block-locale h2.jo,
+.block-locale .jo a {
+  background-position: 0 -2553px;
+}
+
+.block-locale h2.jp,
+.block-locale .jp a {
+  background-position: 0 -2576px;
+}
+
+.block-locale h2.ke,
+.block-locale .ke a {
+  background-position: 0 -2599px;
+}
+
+.block-locale h2.kg,
+.block-locale .kg a {
+  background-position: 0 -2622px;
+}
+
+.block-locale h2.kh,
+.block-locale .kh a {
+  background-position: 0 -2645px;
+}
+
+.block-locale h2.ki,
+.block-locale .ki a {
+  background-position: 0 -2668px;
+}
+
+.block-locale h2.km,
+.block-locale .km a {
+  background-position: 0 -2691px;
+}
+
+.block-locale h2.kn,
+.block-locale .kn a {
+  background-position: 0 -2714px;
+}
+
+.block-locale h2.kp,
+.block-locale .kp a {
+  background-position: 0 -2737px;
+}
+
+.block-locale h2.kr,
+.block-locale .kr a {
+  background-position: 0 -2760px;
+}
+
+.block-locale h2.kw,
+.block-locale .kw a {
+  background-position: 0 -2783px;
+}
+
+.block-locale h2.ky,
+.block-locale .ky a {
+  background-position: 0 -2806px;
+}
+
+.block-locale h2.kz,
+.block-locale .kz a {
+  background-position: 0 -2829px;
+}
+
+.block-locale h2.la,
+.block-locale .la a {
+  background-position: 0 -2852px;
+}
+
+.block-locale h2.lb,
+.block-locale .lb a {
+  background-position: 0 -2875px;
+}
+
+.block-locale h2.lc,
+.block-locale .lc a {
+  background-position: 0 -2898px;
+}
+
+.block-locale h2.li,
+.block-locale .li a {
+  background-position: 0 -2921px;
+}
+
+.block-locale h2.lk,
+.block-locale .lk a {
+  background-position: 0 -2944px;
+}
+
+.block-locale h2.lr,
+.block-locale .lr a {
+  background-position: 0 -2967px;
+}
+
+.block-locale h2.ls,
+.block-locale .ls a {
+  background-position: 0 -2990px;
+}
+
+.block-locale h2.lt,
+.block-locale .lt a {
+  background-position: 0 -3013px;
+}
+
+.block-locale h2.lu,
+.block-locale .lu a {
+  background-position: 0 -3036px;
+}
+
+.block-locale h2.lv,
+.block-locale .lv a {
+  background-position: 0 -3059px;
+}
+
+.block-locale h2.ly,
+.block-locale .ly a {
+  background-position: 0 -3082px;
+}
+
+.block-locale h2.ma,
+.block-locale .ma a {
+  background-position: 0 -3105px;
+}
+
+.block-locale h2.mc,
+.block-locale .mc a {
+  background-position: 0 -3128px;
+}
+
+.block-locale h2.md,
+.block-locale .md a {
+  background-position: 0 -3151px;
+}
+
+.block-locale h2.me,
+.block-locale .me a {
+  background-position: 0 -3174px;
+}
+
+.block-locale h2.mid,
+.block-locale .mid a {
+  background: none;
+  text-indent: 0;
+  width: auto;
+  font-size: 10px;
+  color: #000;
+}
+
+.block-locale h2.mg,
+.block-locale .mg a {
+  background-position: 0 -3197px;
+}
+
+.block-locale h2.mh,
+.block-locale .mh a {
+  background-position: 0 -3220px;
+}
+
+.block-locale h2.mk,
+.block-locale .mk a {
+  background-position: 0 -3243px;
+}
+
+.block-locale h2.ml,
+.block-locale .ml a {
+  background-position: 0 -3266px;
+}
+
+.block-locale h2.mm,
+.block-locale .mm a {
+  background-position: 0 -3289px;
+}
+
+.block-locale h2.mn,
+.block-locale .mn a {
+  background-position: 0 -3312px;
+}
+
+.block-locale h2.mo,
+.block-locale .mo a {
+  background-position: 0 -3335px;
+}
+
+.block-locale h2.mp,
+.block-locale .mp a {
+  background-position: 0 -3358px;
+}
+
+.block-locale h2.mq,
+.block-locale .mq a {
+  background-position: 0 -3381px;
+}
+
+.block-locale h2.mr,
+.block-locale .mr a {
+  background-position: 0 -3404px;
+}
+
+.block-locale h2.ms,
+.block-locale .ms a {
+  background-position: 0 -3427px;
+}
+
+.block-locale h2.mt,
+.block-locale .mt a {
+  background-position: 0 -3450px;
+}
+
+.block-locale h2.mu,
+.block-locale .mu a {
+  background-position: 0 -3473px;
+}
+
+.block-locale h2.mv,
+.block-locale .mv a {
+  background-position: 0 -3496px;
+}
+
+.block-locale h2.mw,
+.block-locale .mw a {
+  background-position: 0 -3519px;
+}
+
+.block-locale h2.mx,
+.block-locale .mx a {
+  background-position: 0 -3542px;
+}
+
+.block-locale h2.my,
+.block-locale .my a {
+  background-position: 0 -3565px;
+}
+
+.block-locale h2.mz,
+.block-locale .mz a {
+  background-position: 0 -3588px;
+}
+
+.block-locale h2.na,
+.block-locale .na a {
+  background-position: 0 -3611px;
+}
+
+.block-locale h2.nc,
+.block-locale .nc a {
+  background-position: 0 -3634px;
+}
+
+.block-locale h2.ne,
+.block-locale .ne a {
+  background-position: 0 -3657px;
+}
+
+.block-locale h2.nf,
+.block-locale .nf a {
+  background-position: 0 -3680px;
+}
+
+.block-locale h2.ng,
+.block-locale .ng a {
+  background-position: 0 -3703px;
+}
+
+.block-locale h2.ni,
+.block-locale .ni a {
+  background-position: 0 -3726px;
+}
+
+.block-locale h2.nl,
+.block-locale .nl a {
+  background-position: 0 -3749px;
+}
+
+.block-locale h2.no,
+.block-locale .no a {
+  background-position: 0 -3772px;
+}
+
+.block-locale h2.np,
+.block-locale .np a {
+  background-position: 0 -3795px;
+}
+
+.block-locale h2.nr,
+.block-locale .nr a {
+  background-position: 0 -3818px;
+}
+
+.block-locale h2.nu,
+.block-locale .nu a {
+  background-position: 0 -3841px;
+}
+
+.block-locale h2.nz,
+.block-locale .nz a {
+  background-position: 0 -3864px;
+}
+
+.block-locale h2.om,
+.block-locale .om a {
+  background-position: 0 -3887px;
+}
+
+.block-locale h2.pa,
+.block-locale .pa a {
+  background-position: 0 -3910px;
+}
+
+.block-locale h2.pe,
+.block-locale .pe a {
+  background-position: 0 -3933px;
+}
+
+.block-locale h2.pf,
+.block-locale .pf a {
+  background-position: 0 -3956px;
+}
+
+.block-locale h2.pg,
+.block-locale .pg a {
+  background-position: 0 -3979px;
+}
+
+.block-locale h2.ph,
+.block-locale .ph a {
+  background-position: 0 -4002px;
+}
+
+.block-locale h2.pk,
+.block-locale .pk a {
+  background-position: 0 -4025px;
+}
+
+.block-locale h2.pl,
+.block-locale .pl a {
+  background-position: 0 -4048px;
+}
+
+.block-locale h2.pm,
+.block-locale .pm a {
+  background-position: 0 -4071px;
+}
+
+.block-locale h2.pn,
+.block-locale .pn a {
+  background-position: 0 -4094px;
+}
+
+.block-locale h2.pr,
+.block-locale .pr a {
+  background-position: 0 -4117px;
+}
+
+.block-locale h2.ps,
+.block-locale .ps a {
+  background-position: 0 -4140px;
+}
+
+.block-locale h2.pt,
+.block-locale .pt a {
+  background-position: 0 -4163px;
+}
+
+.block-locale h2.pw,
+.block-locale .pw a {
+  background-position: 0 -4186px;
+}
+
+.block-locale h2.py,
+.block-locale .py a {
+  background-position: 0 -4209px;
+}
+
+.block-locale h2.qa,
+.block-locale .qa a {
+  background-position: 0 -4232px;
+}
+
+.block-locale h2.re,
+.block-locale .re a {
+  background-position: 0 -4255px;
+}
+
+.block-locale h2.ro,
+.block-locale .ro a {
+  background-position: 0 -4278px;
+}
+
+.block-locale h2.rs,
+.block-locale .rs a {
+  background-position: 0 -4301px;
+}
+
+.block-locale h2.ru,
+.block-locale .ru a {
+  background-position: 0 -4324px;
+}
+
+.block-locale h2.rw,
+.block-locale .rw a {
+  background-position: 0 -4347px;
+}
+
+.block-locale h2.sa,
+.block-locale .sa a {
+  background-position: 0 -4370px;
+}
+
+.block-locale h2.sb,
+.block-locale .sb a {
+  background-position: 0 -4393px;
+}
+
+.block-locale h2.sc,
+.block-locale .sc a {
+  background-position: 0 -4416px;
+}
+
+.block-locale h2.scotland,
+.block-locale .scotland a {
+  background-position: 0 -4439px;
+}
+
+.block-locale h2.sd,
+.block-locale .sd a {
+  background-position: 0 -4462px;
+}
+
+.block-locale h2.se,
+.block-locale .se a {
+  background-position: 0 -4485px;
+}
+
+.block-locale h2.sg,
+.block-locale .sg a {
+  background-position: 0 -4508px;
+}
+
+.block-locale h2.sh,
+.block-locale .sh a {
+  background-position: 0 -4531px;
+}
+
+.block-locale h2.si,
+.block-locale .si a {
+  background-position: 0 -4554px;
+}
+
+.block-locale h2.sj,
+.block-locale .sj a {
+  background-position: 0 -4577px;
+}
+
+.block-locale h2.sk,
+.block-locale .sk a {
+  background-position: 0 -4600px;
+}
+
+.block-locale h2.sl,
+.block-locale .sl a {
+  background-position: 0 -4623px;
+}
+
+.block-locale h2.sm,
+.block-locale .sm a {
+  background-position: 0 -4646px;
+}
+
+.block-locale h2.sn,
+.block-locale .sn a {
+  background-position: 0 -4669px;
+}
+
+.block-locale h2.so,
+.block-locale .so a {
+  background-position: 0 -4692px;
+}
+
+.block-locale h2.sr,
+.block-locale .sr a {
+  background-position: 0 -4715px;
+}
+
+.block-locale h2.st,
+.block-locale .st a {
+  background-position: 0 -4738px;
+}
+
+.block-locale h2.sv,
+.block-locale .sv a {
+  background-position: 0 -4761px;
+}
+
+.block-locale h2.sy,
+.block-locale .sy a {
+  background-position: 0 -4784px;
+}
+
+.block-locale h2.sz,
+.block-locale .sz a {
+  background-position: 0 -4807px;
+}
+
+.block-locale h2.tc,
+.block-locale .tc a {
+  background-position: 0 -4830px;
+}
+
+.block-locale h2.td,
+.block-locale .td a {
+  background-position: 0 -4853px;
+}
+
+.block-locale h2.tf,
+.block-locale .tf a {
+  background-position: 0 -4876px;
+}
+
+.block-locale h2.tg,
+.block-locale .tg a {
+  background-position: 0 -4899px;
+}
+
+.block-locale h2.th,
+.block-locale .th a {
+  background-position: 0 -4922px;
+}
+
+.block-locale h2.tj,
+.block-locale .tj a {
+  background-position: 0 -4945px;
+}
+
+.block-locale h2.tk,
+.block-locale .tk a {
+  background-position: 0 -4968px;
+}
+
+.block-locale h2.tl,
+.block-locale .tl a {
+  background-position: 0 -4991px;
+}
+
+.block-locale h2.tm,
+.block-locale .tm a {
+  background-position: 0 -5014px;
+}
+
+.block-locale h2.tn,
+.block-locale .tn a {
+  background-position: 0 -5037px;
+}
+
+.block-locale h2.to,
+.block-locale .to a {
+  background-position: 0 -5060px;
+}
+
+.block-locale h2.tr,
+.block-locale .tr a {
+  background-position: 0 -5083px;
+}
+
+.block-locale h2.tt,
+.block-locale .tt a {
+  background-position: 0 -5106px;
+}
+
+.block-locale h2.tv,
+.block-locale .tv a {
+  background-position: 0 -5129px;
+}
+
+.block-locale h2.ai,
+.block-locale .tw a {
+  background-position: 0 -5152px;
+}
+
+.block-locale h2.tz,
+.block-locale .tz a {
+  background-position: 0 -5175px;
+}
+
+.block-locale h2.ua,
+.block-locale .ua a {
+  background-position: 0 -5198px;
+}
+
+.block-locale h2.ug,
+.block-locale .ug a {
+  background-position: 0 -5221px;
+}
+
+.block-locale h2.uk,
+.block-locale .uk a {
+  background-position: 0 -5244px;
+}
+
+.block-locale h2.um,
+.block-locale .um a {
+  background-position: 0 -5267px;
+}
+
+.block-locale h2.us,
+.block-locale .us a {
+  background-position: 0 -5290px;
+}
+
+.block-locale h2.uy,
+.block-locale .uy a {
+  background-position: 0 -5313px;
+}
+
+.block-locale h2.uz,
+.block-locale .uz a {
+  background-position: 0 -5336px;
+}
+
+.block-locale h2.va,
+.block-locale .va a {
+  background-position: 0 -5359px;
+}
+
+.block-locale h2.vc,
+.block-locale .vc a {
+  background-position: 0 -5382px;
+}
+
+.block-locale h2.ve,
+.block-locale .ve a {
+  background-position: 0 -5405px;
+}
+
+.block-locale h2.vg,
+.block-locale .vg a {
+  background-position: 0 -5428px;
+}
+
+.block-locale h2.vi,
+.block-locale .vi a {
+  background-position: 0 -5451px;
+}
+
+.block-locale h2.vn,
+.block-locale .vn a {
+  background-position: 0 -5474px;
+}
+
+.block-locale h2.vu,
+.block-locale .vu a {
+  background-position: 0 -5497px;
+}
+
+.block-locale h2.wales,
+.block-locale .wales a {
+  background-position: 0 -5520px;
+}
+
+.block-locale h2.wf,
+.block-locale .wf a {
+  background-position: 0 -5543px;
+}
+
+.block-locale h2.ws,
+.block-locale .ws a {
+  background-position: 0 -5566px;
+}
+
+.block-locale h2.ye,
+.block-locale .ye a {
+  background-position: 0 -5589px;
+}
+
+.block-locale h2.yt,
+.block-locale .yt a {
+  background-position: 0 -5612px;
+}
+
+.block-locale h2.za,
+.block-locale .za a {
+  background-position: 0 -5635px;
+}
+
+.block-locale h2.zm,
+.block-locale .zm a {
+  background-position: 0 -5658px;
+}
+
+.block-locale h2.zw,
+.block-locale .zw a {
+  background-position: 0 -5681px;
+}
